@@ -23,7 +23,7 @@ function Header (props) {
     <div className={s.container__header}>
       <div className={s.header__language}>
         <div className={s.language__rex}>
-          <Icons name='rex' />
+          <Icons name='corex' />
         </div>
         <div className={s.language__earth} onClick={() => changeLanguage()}>
           <Icons name='earth' />

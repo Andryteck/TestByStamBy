@@ -1,14 +1,14 @@
-.selectCoin__item {
+.onsaleheader__item {
   position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 9px 0;
   background-color: var(--dark-grey);
   margin-bottom: 13px;
+
   .item__title {
-    color: var(--light-grey);
+    color: var(--white);
     font: 300 10px Open Sans, sans-serif;
   }
 }

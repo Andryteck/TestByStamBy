@@ -16,6 +16,7 @@ import YouTube from './components/youtube.js'
 import Reddit from './components/reddit.js'
 import OpenArrow from './components/open-arrow.js'
 import CloseArrow from './components/close-arrow.js'
+import Square from "./components/square";
 
 const Icons = props => {
   switch (props.name) {
@@ -47,10 +48,10 @@ const Icons = props => {
       return <Balance {...props} />
     case 'notifications':
       return <Notifications {...props} />
-    case 'cart':
-      return <Cart {...props} />
     case 'sum':
       return <Sum />
+    case 'square':
+      return <Square />
       case 'close':
       return <Close />
     default:
