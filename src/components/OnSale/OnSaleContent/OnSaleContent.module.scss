@@ -1,0 +1,16 @@
+.onsalecontent__item {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 9px 0;
+  background-color: var(--dark-grey);
+  margin-bottom: 13px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--light-grey);
+
+}

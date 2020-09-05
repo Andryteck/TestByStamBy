@@ -5,11 +5,14 @@ import OnSaleContent from "./OnSaleContent/OnSaleContent";
 import s from './OnSale.module.scss'
 
 export function OnSale(props) {
+    let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     return (
         <BlockWithTitle title='ON SALE'>
             <div className={s.onsale__container}>
-            <OnSaleHeader/>
-            <OnSaleContent/>
+                <OnSaleHeader/>
+                {
+                    a.map(i => <OnSaleContent key={i}/>)}
+
             </div>
         </BlockWithTitle>
     )

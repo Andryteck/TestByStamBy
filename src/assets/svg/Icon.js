@@ -17,6 +17,8 @@ import Reddit from './components/reddit.js'
 import OpenArrow from './components/open-arrow.js'
 import CloseArrow from './components/close-arrow.js'
 import Square from "./components/square";
+import Arrows from "./components/arrows";
+import Star from "./components/star";
 
 const Icons = props => {
   switch (props.name) {
@@ -54,6 +56,10 @@ const Icons = props => {
       return <Square />
       case 'close':
       return <Close />
+    case 'star':
+      return <Star />
+    case 'arrows':
+      return <Arrows />
     default:
       return null
   }
