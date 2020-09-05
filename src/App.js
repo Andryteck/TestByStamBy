@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import Header from './components/header/header'
 import { useTranslation } from 'react-i18next'
-import Footer from './components/footer/footer'
-import ContentContainer from './components/content-container/content-container'
 import './App.css'
+import Main from "./components/Main/Main";
 
 export const langs = ['ENG', 'RU', 'BEL', 'UK', 'DE']
 
@@ -24,6 +23,10 @@ function App () {
           cartProducts={cartProducts}
           lang={currentLanguage}
           setCurrentLanguage={setCurrentLanguage}
+        />
+        <Main
+            cartProducts={cartProducts}
+            setCartProducts={setCartProducts}
         />
       </div>
     </div>

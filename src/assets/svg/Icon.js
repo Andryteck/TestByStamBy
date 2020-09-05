@@ -1,6 +1,6 @@
 import React from 'react'
 import News from './components/news.js'
-import Rex from './components/rex.js'
+import Corex from './components/corex.js'
 import Account from './components/account.js'
 import Balance from './components/balance.js'
 import Notifications from './components/notifications.js'
@@ -33,8 +33,8 @@ const Icons = props => {
       return <YouTube />
     case 'reddit':
       return <Reddit />
-    case 'rex':
-      return <Rex />
+    case 'corex':
+      return <Corex />
     case 'earth':
       return <Earth />
     case 'navmenu':
