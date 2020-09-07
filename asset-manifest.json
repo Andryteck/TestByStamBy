@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/TestByStamBy/static/css/main.c074fd04.chunk.css",
+    "main.js": "/TestByStamBy/static/js/main.547342c6.chunk.js",
+    "main.js.map": "/TestByStamBy/static/js/main.547342c6.chunk.js.map",
+    "runtime-main.js": "/TestByStamBy/static/js/runtime-main.9d4ec452.js",
+    "runtime-main.js.map": "/TestByStamBy/static/js/runtime-main.9d4ec452.js.map",
+    "static/js/2.c9bce5a7.chunk.js": "/TestByStamBy/static/js/2.c9bce5a7.chunk.js",
+    "static/js/2.c9bce5a7.chunk.js.map": "/TestByStamBy/static/js/2.c9bce5a7.chunk.js.map",
+    "index.html": "/TestByStamBy/index.html",
+    "precache-manifest.ac73ce80cc606bac51df28d0bb5692ce.js": "/TestByStamBy/precache-manifest.ac73ce80cc606bac51df28d0bb5692ce.js",
+    "service-worker.js": "/TestByStamBy/service-worker.js",
+    "static/css/main.c074fd04.chunk.css.map": "/TestByStamBy/static/css/main.c074fd04.chunk.css.map",
+    "static/js/2.c9bce5a7.chunk.js.LICENSE.txt": "/TestByStamBy/static/js/2.c9bce5a7.chunk.js.LICENSE.txt",
+    "static/media/cart-2.svg": "/TestByStamBy/static/media/cart-2.ea791be4.svg",
+    "static/media/favorite.svg": "/TestByStamBy/static/media/favorite.57b70485.svg",
+    "static/media/imgProd3.svg": "/TestByStamBy/static/media/imgProd3.73bb6c80.svg",
+    "static/media/product-image.svg": "/TestByStamBy/static/media/product-image.bd9e81a4.svg",
+    "static/media/header.module.scss": "/TestByStamBy/static/media/square.05ca6461.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d4ec452.js",
+    "static/js/2.c9bce5a7.chunk.js",
+    "static/css/main.c074fd04.chunk.css",
+    "static/js/main.547342c6.chunk.js"
+  ]
+}
