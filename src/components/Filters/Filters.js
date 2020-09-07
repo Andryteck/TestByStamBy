@@ -1,13 +1,11 @@
 import React, { useState } from 'react'
 import BlockWithTitle from '../common/block-with-title/block-with-title'
 import Input from '../common/input/input'
-import { useTranslation } from 'react-i18next';
 import s from './Filters.module.scss'
 
 function Filters () {
   const [isOpen, setIsOpen] = useState(true)
 
-  const{t, i18n} = useTranslation();
 
   return (
     <BlockWithTitle title='SORT BY'>

@@ -1,20 +1,17 @@
 import React, {useState, useEffect} from 'react'
-import Header from './components/header/header'
+import Header from './components/Header/header'
 import {useTranslation} from 'react-i18next'
 import './App.css'
 import Main from "./components/Main/Main";
+import Footer from "./components/Footer/Footer";
 
 
 export const langs = ['ENG', 'RU', 'BEL', 'UK', 'DE']
 
 function App() {
-    const {t, i18n} = useTranslation()
+
     const [currentLanguage, setCurrentLanguage] = useState(0)
     const [cartProducts, setCartProducts] = useState([])
-
-    useEffect(() => {
-        i18n.changeLanguage(langs[currentLanguage])
-    }, [currentLanguage])
 
     return (
         <div className='app'>
@@ -26,7 +23,7 @@ function App() {
                     setCurrentLanguage={setCurrentLanguage}
                 />
                 <Main/>
-
+                <Footer/>
             </div>
         </div>
     )

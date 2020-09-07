@@ -3,10 +3,21 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 9px 0;
-  background-color: var(--dark-grey);
-  margin-bottom: 13px;
+  padding: 7.5px 0;
+  background-color: rgba(21, 22, 38, 1);
+  margin-bottom: 14px;
+  border: 0.5px solid rgba(38, 39, 59, 1);
+.container__title {
+  width: 175px;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 1024px) {
+    & {
+      width: 100px;
+    }
 
+  }
+}
   .item__title {
     font-family: Open Sans;
     font-style: normal;

@@ -1,11 +1,12 @@
 .onsalecontent__item {
   position: relative;
-  display: flex;
-  justify-content: space-evenly;
   align-items: center;
-  padding: 9px 0;
-  background-color: var(--dark-grey);
-  margin-bottom: 13px;
+  min-height: 43px;
+  display: flex;
+  justify-content: center;
+  padding: 12.5px 0;
+  background-color: rgba(34, 34, 50, 1);
+  margin-bottom: 12px;
   font-family: Open Sans;
   font-style: normal;
   font-weight: 300;
@@ -13,4 +14,39 @@
   line-height: 15px;
   color: var(--light-grey);
 
+  &:nth-child(2) {
+    min-height: 40px;
+    margin-bottom: 14px;
+  }
+  &:nth-child(2n+1) {
+    background-color: rgba(21, 22, 38, 1)
+  }
+  .container__icons {
+    width: 685px;
+    display: flex;
+    justify-content: space-between;
+    & span:nth-child(10) {
+      color: #FFFFFF;
+    }
+    & span:nth-last-child(5n-1) {
+    color: var(--light-grey);
+  }
+    & span:nth-child(9) {
+      color: green;
+    }
+    & span span {
+      color: var(--light-grey);
+    }
+    .title {
+      margin-right: 19px;
+    }
+    @media (max-width: 1024px) {
+      & {
+        width: 554px;
+      }
+      .title {
+        margin-right: 0px;
+      }
+    }
+  }
 }
