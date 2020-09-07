@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react'
 import Header from './components/Header/header'
-import {useTranslation} from 'react-i18next'
 import './App.css'
 import Main from "./components/Main/Main";
 import Footer from "./components/Footer/Footer";
